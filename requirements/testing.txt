@@ -19,7 +19,7 @@ execnet==1.7.1
 # (Pinned to 4.4.2 since what we need for testing is still useful)
 Mercurial==4.4.2  # pyup: ignore
 
-yamale==2.2.0  # pyup: <3.0
+yamale==4.0.0  # pyup: <3.0
 pytest-mock==3.3.1
 
 # local debugging tools
@@ -27,3 +27,4 @@ datadiff==2.0.0
 ipdb==0.13.4
 
 requests-mock==1.8.0
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
