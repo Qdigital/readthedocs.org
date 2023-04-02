@@ -47,7 +47,7 @@ celery==4.1.1  # pyup: ignore
 # template at project level. Therefore, ``base.html`` has now been moved to
 # ``account/base.html`` -- you will need to check your templates and likely
 # override ``account/base.html`` within your project.
-django-allauth==0.42.0  # pyup: ignore
+django-allauth==0.54.0  # pyup: ignore
 
 GitPython==3.1.11
 
